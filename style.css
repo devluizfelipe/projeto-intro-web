@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "snes";
+    src: url(fonts/SnesItalic-1G9Be.ttf) format('truetype');
+    /* utilizei uma fonte baixada, está na pasta fonts */
+}
+
+header {
+    background: black;
+}
+
+h1 {
+    font-family: 'snes';
+    font-size: 50px;
+    color: #fe0016;
+    padding: 10px 20px 10px 20px;
+}
+
+main {
+    min-height: 81vh;
+    background: url(imagens/background2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #f6f6f6c0;
+}
+
+section .barra-pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 57px;
+}
+
+.input {
+    font-family: 'snes';
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 338px;
+    height: 37px;
+    margin: 7px;
+    padding-left: 10px;
+}
+
+button {
+    width: 93px;
+    height: 43px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+    background-color: orange;
+}
+
+button:hover {
+    transform: scale(1.2);
+    background-color: darkorange;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.card {
+    min-width: 350px;
+    max-width: 34vw;
+    margin-bottom: 50px;
+    position: relative;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    position: absolute;
+    bottom: 3%;
+    left: 21.75%;
+    min-width: 54%;
+    max-width: 54%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    line-height: 1.1;
+    border-radius: 8px;
+}
+
+a {
+    color: gold;
+    font-weight: bold;
+    text-decoration: double;
+    transition: 400ms;
+}
+
+a:hover {
+    color: darkorange;
+    text-decoration: underline;
+}
+
+footer {
+    background: black;
+    width: 100%;
+    transition: 0.75s;
+}
+
+footer img {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.tecnologias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+footer img {
+    margin-left: 5px;
+    width: 80px;
+}
+
+footer p,
+h6 {
+    color: white;
+    text-align: center;
+}
+
+.estudante {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3px;
+}
+
+.linkedin {
+    width: 20px;
+    border-radius: 8px;
+}
+
+.linkedin:hover,
+.icone-github:hover {
+    border: solid 1px #f6f6f6;
+}
+
+.icone-github {
+    width: 20px;
+    border-radius: 8px;
+}
+
+/* Aqui estão as configs de responsividade para tablet e smartphone */
+@media(max-width:1200px) {
+    ul {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:480px) {
+    h1 {
+        font-size: 38px;
+        text-align: center;
+    }
+    button:hover {
+        transform: none;
+    }
+    .card:hover {
+        transform:none;
+    }
+}
