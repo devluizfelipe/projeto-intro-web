@@ -168,6 +168,9 @@ h6 {
         font-size: 38px;
         text-align: center;
     }
+    main {
+        min-height: 100vh;
+    }
     button:hover {
         transform: none;
     }
