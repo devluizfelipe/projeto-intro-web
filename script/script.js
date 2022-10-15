@@ -7,7 +7,7 @@ const objetoJogo1 = {
     copias: 20610000,
     multiplayer: true,
     regioes: ['Japão', 'USA', 'Europa', 'Outras regiões'],
-    img: "imagens/1-super-mario-world-final.png",
+    img: "assets/1-super-mario-world-final.png",
     alt: "Cartucho com label do jogo Super Mario World"
 
 }
@@ -19,7 +19,7 @@ const objetoJogo2 = {
     copias: 10550000,
     multiplayer: true,
     regioes: ['Japão', 'USA', 'Europa', 'Outras regiões'],
-    img: "imagens/2-super-mario-all-star-final.png",
+    img: "assets/2-super-mario-all-star-final.png",
     alt: "Cartucho com label do jogo Super Mario All-Stars"
 }
 
@@ -30,7 +30,7 @@ const objetoJogo3 = {
     copias: 9300000,
     multiplayer: true,
     regioes: ['Japão', 'USA', 'Europa', 'Outras regiões'],
-    img: "imagens/3-donkey-kong-country-final.png",
+    img: "assets/3-donkey-kong-country-final.png",
     alt: "Cartucho com label do jogo Donkey Kong Country"
 
 }
@@ -42,7 +42,7 @@ const objetoJogo4 = {
     copias: 8760000,
     multiplayer: true,
     regioes: ['Japão', 'USA', 'Europa', 'Outras regiões'],
-    img: "imagens/4-super-mario-kart-final.png",
+    img: "assets/4-super-mario-kart-final.png",
     alt: "Cartucho com label do jogo Super Mario Kart"
 
 }
@@ -54,7 +54,7 @@ const objetoJogo5 = {
     copias: 6300000,
     multiplayer: true,
     regioes: ['Japão', 'USA', 'Europa', 'Outras regiões'],
-    img: "imagens/5-street-fighter-II-final.png",
+    img: "assets/5-street-fighter-II-final.png",
     alt: "Cartucho com label do jogo Street Fighter II: The World Warrior"
 
 

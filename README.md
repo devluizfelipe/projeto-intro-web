@@ -1,5 +1,5 @@
 
-<h1 align="center" Style="font-family: 'SnesItalic-1G9Be.ttf'; color: #fe0016"> Best Sellers Super Nintendo<br/><br/>
+<h1 align="center"> Best Sellers Super Nintendo<br/><br/>
 <img width=500 src="./assets/readme/snes-readme.jpg"/> 
 </h1>
 
