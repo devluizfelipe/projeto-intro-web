@@ -9,7 +9,6 @@ const objetoJogo1 = {
     regioes: ['Japão', 'USA', 'Europa', 'Outras regiões'],
     img: "assets/1-super-mario-world-final.png",
     alt: "Cartucho com label do jogo Super Mario World"
-
 }
 
 const objetoJogo2 = {
